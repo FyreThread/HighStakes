@@ -71,4 +71,4 @@ int rc_auto_loop_function_Controller1() {
   return 0;
 }
 
-task rc_auto_loop_task_Controller1(rc_auto_loop_function_Controller1); 
+task rc_auto_loop_task_Controller1(rc_auto_loop_function_Controller1);

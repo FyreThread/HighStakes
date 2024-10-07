@@ -3,7 +3,7 @@
 /*    Module:       main.cpp                                                  */
 /*    Author:       Target7175                                                */
 /*    Created:      10/3/2024, 2:56:54 PM                                     */
-/*    Description:  V5 project                                                */
+/*    Description:  High Stakes 9144G Code                                    */
 /*                                                                            */
 /*----------------------------------------------------------------------------*/
 #include "vex.h"
