@@ -7,6 +7,10 @@
 #include "v5_vcs.h"
 using namespace vex;
 
+// A global instance of vex::brain used for printing to the V5 brain screen
+brain       Brain;
+
+// Define motors and other devices below
 motor intake = motor(PORT8, ratio6_1, false);
 
 motor leftMotorA = motor(PORT1, ratio18_1, true);

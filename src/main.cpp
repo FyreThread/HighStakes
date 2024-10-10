@@ -1,19 +1,15 @@
 /*----------------------------------------------------------------------------*/
 /*                                                                            */
 /*    Module:       main.cpp                                                  */
-/*    Author:       Target7175                                                */
+/*    Author:       Alex Caroon                                               */
 /*    Created:      10/3/2024, 2:56:54 PM                                     */
 /*    Description:  High Stakes 9144G Code                                    */
 /*                                                                            */
 /*----------------------------------------------------------------------------*/
 #include "vex.h"
-
 using namespace vex;
 
-// A global instance of vex::brain used for printing to the V5 brain screen
-vex::brain       Brain;
-
-// define your global instances of motors and other devices here
+// Motor controls for buttons and autonomous
 
 void intakeForward() {
     intake.spin(forward);
@@ -24,6 +20,8 @@ void intakeReverse() {
 void intakeStop() {
     intake.stop();
 }
+
+
 
 int main() {
     intake.setVelocity(150, percent);
