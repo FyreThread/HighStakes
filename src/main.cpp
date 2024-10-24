@@ -26,9 +26,9 @@ void intakeStop() {
 int main() {
     intake.setVelocity(150, percent);
 
-    driverControl();
     Controller1.ButtonR2.pressed(intakeForward);
     Controller1.ButtonR2.released(intakeStop);
     Controller1.ButtonL2.pressed(intakeReverse);
     Controller1.ButtonL2.released(intakeStop);
+    driverControl();
 }
