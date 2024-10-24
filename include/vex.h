@@ -11,7 +11,7 @@ using namespace vex;
 brain       Brain;
 
 // Define motors and other devices below
-motor intake = motor(PORT8, ratio6_1, false);
+motor intake = motor(PORT9, ratio6_1, false);
 
 motor leftMotorA = motor(PORT1, ratio18_1, true);
 motor leftMotorB = motor(PORT2, ratio18_1, true);
